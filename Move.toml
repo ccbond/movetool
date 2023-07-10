@@ -1,0 +1,10 @@
+[package]
+name = "movetool"
+version = "0.1.0"
+published-at = "0x0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.4.1" }
+
+[addresses]
+movetool = "0x0"
