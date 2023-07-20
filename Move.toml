@@ -1,10 +1,11 @@
 [package]
 name = "movetool"
-version = "0.1.0"
-published-at = "0x0"
+version = "0.1.1"
+published-at = "0xc7bab9fcf58f1da2e1f51646468f96ac4f9717f1df99f44a5d67a8e79db4eac8"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.4.1" }
+# Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.5.0" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.5.0" }
 
 [addresses]
 movetool = "0x0"
